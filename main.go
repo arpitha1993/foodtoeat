@@ -29,3 +29,4 @@ func Handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 func main() {
 	lambda.Start(Handler)
 }
+}
